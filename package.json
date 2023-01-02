@@ -1,7 +1,7 @@
 {
   "name": "electronTest",
   "productName": "Electron Test",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "testing electron",
   "main": "main.js",
   "author": "monem dakheel",
@@ -14,7 +14,8 @@
     "start": "electron .",
     "app:dir": "electron-builder --dir",
     "app:dist": "electron-builder",
-    "postinstall": "electron-builder install-app-deps"
+    "postinstall": "electron-builder install-app-deps",
+    "app:release": "electron-builder --publish always"
   },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0"
@@ -22,7 +23,8 @@
   "build": {
     "appId": "com.testElectronMonem",
     "mac": {
-      "category": "your.app.category.personal"
+      "category": "your.app.category.personal",
+      "publish": ["github"]
     }
   }
 }
