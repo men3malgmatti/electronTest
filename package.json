@@ -1,7 +1,7 @@
 {
   "name": "electronTest",
   "productName": "Electron Test",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "testing electron",
   "main": "main.js",
   "author": "monem dakheel",
