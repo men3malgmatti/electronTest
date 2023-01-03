@@ -1,7 +1,7 @@
 {
   "name": "electronTest",
   "productName": "Electron Test",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "testing electron",
   "main": "main.js",
   "author": "monem dakheel",
@@ -20,14 +20,18 @@
   "dependencies": {
     "electron-log": "^4.4.8",
     "electron-squirrel-startup": "^1.0.0",
-    "electron-updater": "^5.3.0"
+    "electron-updater": "^5.3.0",
+    "http-server": "^14.1.1"
   },
   "build": {
     "appId": "com.testElectronMonem",
     "mac": {
       "category": "your.app.category.personal",
       "publish": [
-        "github"
+        {
+          "provider": "generic",
+          "url": "http://127.0.0.1:8080/"
+        }
       ]
     }
   }
