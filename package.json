@@ -30,7 +30,7 @@
       "publish": [
         {
           "provider": "generic",
-          "url": "http://electrontest.atwebpages.com/"
+          "url": "https://glamorous-wasp-hat.cyclic.app/"
         }
       ]
     }
