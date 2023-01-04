@@ -1,7 +1,7 @@
 {
   "name": "electronTest",
   "productName": "Electron Test",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "testing electron",
   "main": "main.js",
   "author": "monem dakheel",
@@ -30,7 +30,7 @@
       "publish": [
         {
           "provider": "generic",
-          "url": "https://glamorous-wasp-hat.cyclic.app/"
+          "url": "http://127.0.0.1:8080/"
         }
       ]
     }
