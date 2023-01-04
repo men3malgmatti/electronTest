@@ -1,7 +1,7 @@
 {
   "name": "electronTest",
   "productName": "Electron Test",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "testing electron",
   "main": "main.js",
   "author": "monem dakheel",
@@ -30,7 +30,7 @@
       "publish": [
         {
           "provider": "generic",
-          "url": "https://powerful-crab-sweatshirt.cyclic.app/"
+          "url": "https://electrontest.onrender.com/"
         }
       ]
     }
