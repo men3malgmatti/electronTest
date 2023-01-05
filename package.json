@@ -25,14 +25,14 @@
   },
   "build": {
     "appId": "com.testElectronMonem",
+    "publish": [
+      {
+        "provider": "generic",
+        "url": "https://electrontest.onrender.com/"
+      }
+    ],
     "mac": {
-      "category": "your.app.category.personal",
-      "publish": [
-        {
-          "provider": "generic",
-          "url": "https://electrontest.onrender.com/"
-        }
-      ]
+      "category": "your.app.category.personal"
     }
   }
 }
